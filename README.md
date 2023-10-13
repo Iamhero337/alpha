@@ -1,2 +1,2 @@
-# alpha
+# delta
 Alpha course
