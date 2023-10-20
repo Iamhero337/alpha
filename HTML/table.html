@@ -6,26 +6,43 @@
     <title>Table making</title>
 </head>
 <body>
-    <table border="black">
+    <table border="5px solid black">
         <caption>Food menu</caption>
+        
+        <!-- table header -->
+        <thead>
+            <tr>
+                <th rowspan="2">Item</th>
+                <th colspan="2">Price</th>
+            </tr>
 
-        <tr>
-            <th>Item</th>
-            <th>Price</th>
-        </tr>
+            <tr>
+                <th>USD</th>
+                <th>INR</th>
+            </tr>
 
-        <tr>
-            <td>Chowmin</td>
-            <td>1$</td>
-        </tr>
-        <tr>
-            <td>Roll</td>
-            <td>.60$</td>
-        </tr>
-        <tr>
-            <td>Chick pako</td>
-            <td>.30$</td>
-        </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Chowmin</td>
+                <td>1$</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>Roll</td>
+                <td>.60$</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Chick pako</td>
+                <td>.30$</td>
+                <td>25</td>
+            </tr>
+
+        </tbody>
+
+        
     </table>
 </body>
 </html>
